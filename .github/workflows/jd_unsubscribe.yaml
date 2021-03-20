@@ -4,6 +4,9 @@
 name: 京东取关店铺
 
 on:
+  push:
+        branches:
+            - master
   schedule:
     - cron: '45 15 * * *'
 
