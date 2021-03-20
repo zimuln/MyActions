@@ -4,9 +4,9 @@
 name: 京小超领蓝币
 
 on:
-    # push:
-    #     branches:
-    #         - master
+    push:
+        branches:
+            - master
     schedule:
         - cron: "10 17 * * *"
 
